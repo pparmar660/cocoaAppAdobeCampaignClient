@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HomeViewController" customModule="Adobe_Campaign_Client" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="998" height="529"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="y0R-8M-yKe">
+                    <rect key="frame" x="0.0" y="0.0" width="998" height="529"/>
+                    <subviews>
+                        <tabView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5QD-M5-FDm">
+                            <rect key="frame" x="160" y="23" width="663" height="482"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <tabViewItems>
+                                <tabViewItem label="Tab" identifier="1" id="KOv-ir-baR">
+                                    <view key="view" id="KYC-6f-hc6">
+                                        <rect key="frame" x="10" y="33" width="643" height="436"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                </tabViewItem>
+                                <tabViewItem label="View" identifier="2" id="NZ8-LJ-xhO">
+                                    <view key="view" ambiguous="YES" id="D7V-12-LbJ">
+                                        <rect key="frame" x="10" y="33" width="643" height="436"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                </tabViewItem>
+                            </tabViewItems>
+                        </tabView>
+                        <box autoresizesSubviews="NO" misplaced="YES" borderType="line" title="Home" translatesAutoresizingMaskIntoConstraints="NO" id="gFH-Va-cRP">
+                            <rect key="frame" x="17" y="16" width="145" height="493"/>
+                            <view key="contentView" id="rOZ-BV-vJZ">
+                                <rect key="frame" x="1" y="1" width="143" height="468"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ONo-J6-ugu">
+                                        <rect key="frame" x="14" y="263" width="112" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Delivery" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="AsD-29-r4c">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W5N-fJ-OP0">
+                                        <rect key="frame" x="14" y="302" width="112" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Workflow" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zaR-Nx-dJh">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oOQ-ix-sQx">
+                                        <rect key="frame" x="14" y="341" width="112" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Campaign" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SC7-35-aEZ">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OHs-0U-IOb">
+                                        <rect key="frame" x="14" y="380" width="112" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Progrma" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="iJT-BF-osc">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fSq-i4-4eJ">
+                                        <rect key="frame" x="14" y="420" width="112" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Plan" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="GSs-c5-e5R">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <font key="titleFont" metaFont="systemBold" size="18"/>
+                        </box>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="gFH-Va-cRP" firstAttribute="top" secondItem="y0R-8M-yKe" secondAttribute="top" constant="20" id="5Xg-Zs-0wD"/>
+                        <constraint firstAttribute="bottom" secondItem="gFH-Va-cRP" secondAttribute="bottom" constant="20" id="JjV-mh-lLX"/>
+                        <constraint firstItem="gFH-Va-cRP" firstAttribute="top" secondItem="y0R-8M-yKe" secondAttribute="top" constant="20" id="gR0-mY-s2J"/>
+                        <constraint firstItem="gFH-Va-cRP" firstAttribute="leading" secondItem="y0R-8M-yKe" secondAttribute="leading" constant="20" id="lK3-1Y-EvB"/>
+                        <constraint firstAttribute="bottom" secondItem="gFH-Va-cRP" secondAttribute="bottom" constant="20" id="wlJ-Bh-lZ3"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="y0R-8M-yKe" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="CWf-tI-Ezd"/>
+                <constraint firstItem="y0R-8M-yKe" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="G63-D1-DlE"/>
+                <constraint firstAttribute="bottom" secondItem="y0R-8M-yKe" secondAttribute="bottom" id="of3-Od-HdQ"/>
+                <constraint firstAttribute="trailing" secondItem="y0R-8M-yKe" secondAttribute="trailing" id="v3j-EU-UxQ"/>
+            </constraints>
+            <point key="canvasLocation" x="57" y="110.5"/>
+        </customView>
+    </objects>
+</document>

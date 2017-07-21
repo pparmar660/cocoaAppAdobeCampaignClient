@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D086A5401F19123000DF37F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D086A53F1F19123000DF37F2 /* AppDelegate.swift */; };
+		D086A5441F19123000DF37F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D086A5431F19123000DF37F2 /* Assets.xcassets */; };
+		D086A54F1F191CED00DF37F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D086A54E1F191CED00DF37F2 /* Constants.swift */; };
+		D086A5511F191E0700DF37F2 /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D086A5501F191E0700DF37F2 /* ServerRequest.swift */; };
+		D0B38AA01F20FD9C000EF1C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B38A9E1F20FD9C000EF1C7 /* HomeViewController.swift */; };
+		D0B38AA11F20FD9C000EF1C7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B38A9F1F20FD9C000EF1C7 /* HomeViewController.xib */; };
+		D0B4A2A91F1FA72100F4F47B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B4A2A81F1FA72100F4F47B /* MainMenu.xib */; };
+		D0B4A2AC1F1FA8C800F4F47B /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B4A2AA1F1FA8C800F4F47B /* MainWindowController.swift */; };
+		D0B4A2AD1F1FA8C800F4F47B /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B4A2AB1F1FA8C800F4F47B /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D086A53C1F19123000DF37F2 /* Adobe Campaign Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adobe Campaign Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D086A53F1F19123000DF37F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D086A5431F19123000DF37F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D086A5481F19123000DF37F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D086A54E1F191CED00DF37F2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D086A5501F191E0700DF37F2 /* ServerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
+		D0B38A9E1F20FD9C000EF1C7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		D0B38A9F1F20FD9C000EF1C7 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../HomeViewController.xib; sourceTree = "<group>"; };
+		D0B4A2A81F1FA72100F4F47B /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
+		D0B4A2AA1F1FA8C800F4F47B /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = ../MainWindowController.swift; sourceTree = "<group>"; };
+		D0B4A2AB1F1FA8C800F4F47B /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindowController.xib; path = ../MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D086A5391F19123000DF37F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D086A5331F19123000DF37F2 = {
+			isa = PBXGroup;
+			children = (
+				D086A53E1F19123000DF37F2 /* Adobe Campaign Client */,
+				D086A53D1F19123000DF37F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D086A53D1F19123000DF37F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D086A53C1F19123000DF37F2 /* Adobe Campaign Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D086A53E1F19123000DF37F2 /* Adobe Campaign Client */ = {
+			isa = PBXGroup;
+			children = (
+				D086A53F1F19123000DF37F2 /* AppDelegate.swift */,
+				D0B38A9E1F20FD9C000EF1C7 /* HomeViewController.swift */,
+				D0B38A9F1F20FD9C000EF1C7 /* HomeViewController.xib */,
+				D0B4A2AA1F1FA8C800F4F47B /* MainWindowController.swift */,
+				D0B4A2AB1F1FA8C800F4F47B /* MainWindowController.xib */,
+				D086A5431F19123000DF37F2 /* Assets.xcassets */,
+				D0B4A2A81F1FA72100F4F47B /* MainMenu.xib */,
+				D086A5481F19123000DF37F2 /* Info.plist */,
+				D086A54E1F191CED00DF37F2 /* Constants.swift */,
+				D086A5501F191E0700DF37F2 /* ServerRequest.swift */,
+			);
+			path = "Adobe Campaign Client";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D086A53B1F19123000DF37F2 /* Adobe Campaign Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D086A54B1F19123000DF37F2 /* Build configuration list for PBXNativeTarget "Adobe Campaign Client" */;
+			buildPhases = (
+				D086A5381F19123000DF37F2 /* Sources */,
+				D086A5391F19123000DF37F2 /* Frameworks */,
+				D086A53A1F19123000DF37F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adobe Campaign Client";
+			productName = "Adobe Campaign Client";
+			productReference = D086A53C1F19123000DF37F2 /* Adobe Campaign Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D086A5341F19123000DF37F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ManishP;
+				TargetAttributes = {
+					D086A53B1F19123000DF37F2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D086A5371F19123000DF37F2 /* Build configuration list for PBXProject "Adobe Campaign Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D086A5331F19123000DF37F2;
+			productRefGroup = D086A53D1F19123000DF37F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D086A53B1F19123000DF37F2 /* Adobe Campaign Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D086A53A1F19123000DF37F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D086A5441F19123000DF37F2 /* Assets.xcassets in Resources */,
+				D0B4A2AD1F1FA8C800F4F47B /* MainWindowController.xib in Resources */,
+				D0B38AA11F20FD9C000EF1C7 /* HomeViewController.xib in Resources */,
+				D0B4A2A91F1FA72100F4F47B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D086A5381F19123000DF37F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D086A5401F19123000DF37F2 /* AppDelegate.swift in Sources */,
+				D086A5511F191E0700DF37F2 /* ServerRequest.swift in Sources */,
+				D0B4A2AC1F1FA8C800F4F47B /* MainWindowController.swift in Sources */,
+				D086A54F1F191CED00DF37F2 /* Constants.swift in Sources */,
+				D0B38AA01F20FD9C000EF1C7 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D086A5491F19123000DF37F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D086A54A1F19123000DF37F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D086A54C1F19123000DF37F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Adobe Campaign Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pparmar.adobecampaign.Adobe-Campaign-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D086A54D1F19123000DF37F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Adobe Campaign Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pparmar.adobecampaign.Adobe-Campaign-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D086A5371F19123000DF37F2 /* Build configuration list for PBXProject "Adobe Campaign Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D086A5491F19123000DF37F2 /* Debug */,
+				D086A54A1F19123000DF37F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D086A54B1F19123000DF37F2 /* Build configuration list for PBXNativeTarget "Adobe Campaign Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D086A54C1F19123000DF37F2 /* Debug */,
+				D086A54D1F19123000DF37F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D086A5341F19123000DF37F2 /* Project object */;
+}
